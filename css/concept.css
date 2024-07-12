@@ -11,6 +11,7 @@
     color: #000000;
     text-shadow: 1px 1px 10px #4b2c14;
 }
+
 body {
     font-family:'arial', sans-serif;
     font-size: 16pt;
@@ -24,6 +25,10 @@ body {
     font-family: 'serif',　serif;
     font-size: 32pt;
     font-weight: bold;
+}
+
+.site-menu  li a {
+    font-family: 'serif', serif;
 }
 
 .title p {

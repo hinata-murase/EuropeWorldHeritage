@@ -30,7 +30,8 @@ body {
     font-weight: bold;
 }
 
-.site-menu  li a {
+/*ヘッターの字体*/
+.site-menu ul li a {
     font-family: 'serif', serif;
 }
 

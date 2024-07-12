@@ -10,11 +10,6 @@
     text-align: center;
 }
 
-.site-menu ul li {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
 .countries h2::after {
     content: '';
     display: block;
@@ -43,6 +38,11 @@
 
 .member-list li:first-child {
     margin-left: 0;
+}
+
+.site-menu ul li {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 @media (max-width: 800px) {

@@ -1,16 +1,21 @@
-.members {
+.countries {
     background-color: #f8f8f8;
     padding-top: 45px;
     padding-bottom: 55px;
 }
 
-.members h2 {
+.countries h2 {
     font-size: 22px;
     font-weight: bold;
     text-align: center;
 }
 
-.members h2::after {
+.site-menu ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.countries h2::after {
     content: '';
     display: block;
     width: 36px;

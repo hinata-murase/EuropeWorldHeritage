@@ -1,3 +1,13 @@
+/*top*/
+nav.floating {
+    position: absolute;
+    height: 600px;
+    right: 10px;
+    height: calc(18vh - 50px);
+    color: #ffffff;
+    background-color: #d39609;
+}
+
 .title {
     height: 310px;
     background-image: url(../images/concept/body_top.png);

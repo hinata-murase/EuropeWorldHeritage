@@ -9,9 +9,16 @@
     justify-content: center;
     align-items: center;
     color: #000000;
-    background-color: #000000;
     text-shadow: 1px 1px 10px #4b2c14;
 }
+body {
+    font-family:'arial', sans-serif;
+    font-size: 16pt;
+    color: #e9e2e2;
+    /*文の間隔*/
+    line-height: 1;
+    /*上の背景色*/
+    background-color: #000000;
 
 .title h1 {
     font-family: 'serif',　serif;

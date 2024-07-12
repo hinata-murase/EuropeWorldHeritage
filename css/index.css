@@ -111,7 +111,7 @@ img {
 }
 /*ヘッターの字体*/
 .site-menu ul li a {
-    font-family: 'Cherry Bomb One', cursive;
+    font-family: 'serif', serif;
 }
 
 @media (max-width: 800px) {

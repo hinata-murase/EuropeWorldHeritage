@@ -3,7 +3,7 @@
 /*top*/
 nav.floating {
     position: absolute;
-    height: 800px;
+    height: 600px;
     right: 10px;
     height: calc(18vh - 50px);
     color: #ffffff;

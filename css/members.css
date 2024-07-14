@@ -1,37 +1,5 @@
-/*top*/
-nav.floating {
-    position: absolute;
-    height: 600px;
-    right: 10px;
-    height: calc(18vh - 50px);
-    color: #ffffff;
-    background-color: #d39609;
-}
-/*トップ画像*/
-.first-view {
-    height: calc(120vh - 140px);
-    background-image: url(../images/index/top_main.webp);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-}
-
-.first-view-text {
-    width: 100%;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 40px;
-    padding-bottom: 80px;
-    color: #ffffff;
-    font-weight: bold;
-    text-shadow: 5px 5px 10px #7f2905;
-}
-
 body {
-    font-family: "serif", serif;
+    font-family: Arial, sans-serif;
 }
 
 header {
@@ -47,7 +15,7 @@ header {
 }
 
 .flag-item {
-    margin: 20px;
+    margin: 10px;
     cursor: pointer;
 }
 
@@ -55,11 +23,6 @@ header {
     width: 100px;
     height: auto;
     border: 2px solid #ccc;
-}
-
-/*ヘッターの字体*/
-.site-menu ul li a {
-    font-family: 'serif', serif;
 }
 
 .heritage-menu {
@@ -86,5 +49,3 @@ header {
 .heritage-menu ul li a:hover {
     text-decoration: underline;
 }
-
-

@@ -30,15 +30,15 @@ document.addEventListener('DOMContentLoaded', () => {
         italy: [
             { name: 'スクロヴェー二礼拝堂', url: 'https://www.ohmi.co.jp/report/index.php?c=topics2_view&pk=1607996670' },
             { name: 'ピサの斜塔', url: 'https://www.his-j.com/sightseeing/kaigai/europe/italy/pisa/' }
-        ]
+        ],
         england: [
             { name: 'ロンドン塔', url: 'https://www.his-j.com/theme/world-heritage/europe/england/tower/' },
             { name: 'ストーンヘンジ', url: 'https://www.his-j.com/sightseeing/kaigai/europe/england/stonehenge/' }
-        ]
+        ],
         germany: [
             { name: 'ヴィースの巡礼教会', url: 'https://www.his-j.com/theme/world-heritage/europe/germany/wies/' },
             { name: 'バンベルク', url: 'https://www.his-j.com/theme/world-heritage/europe/germany/bamberg/' }
-        ]
+        ],
         // 他の国の世界遺産データも追加
     };
 

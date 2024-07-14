@@ -21,3 +21,40 @@ $(function () {
     });
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    const heritageData = {
+        france: [
+            { name: 'ヴェルサイユ宮殿', url: 'versailles.html' },
+            { name: 'モン・サン・ミシェル', url: 'mont-saint-michel.html' }
+        ],
+        italy: [
+            { name: 'コロッセオ', url: 'colosseum.html' },
+            { name: 'ヴェネツィア', url: 'venice.html' }
+        ]
+        // 他の国の世界遺産データも追加
+    };
+
+    const flagItems = document.querySelectorAll('.flag-item');
+    const heritageMenu = document.getElementById('heritage-menu');
+    const heritageList = document.getElementById('heritage-list');
+
+    flagItems.forEach(item => {
+        item.addEventListener('click', () => {
+            const country = item.getAttribute('data-country');
+            const heritageSites = heritageData[country] || [];
+            
+            heritageList.innerHTML = '';
+
+            heritageSites.forEach(site => {
+                const listItem = document.createElement('li');
+                const link = document.createElement('a');
+                link.href = site.url;
+                link.textContent = site.name;
+                listItem.appendChild(link);
+                heritageList.appendChild(listItem);
+            });
+
+            heritageMenu.style.display = 'block';
+        });
+    });
+});

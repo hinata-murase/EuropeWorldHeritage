@@ -23,13 +23,21 @@ $(function () {
 
 document.addEventListener('DOMContentLoaded', () => {
     const heritageData = {
-        france: [
-            { name: 'ヴェルサイユ宮殿', url: 'versailles.html' },
-            { name: 'モン・サン・ミシェル', url: 'mont-saint-michel.html' }
+        spain: [
+            { name: 'サグラダ・ファミリア', url: 'https://www.his-j.com/sightseeing/kaigai/europe/spain/sagradafamilia/' },
+            { name: 'セゴビア', url: 'https://www.nta.co.jp/kaigai/europe/worldheritage/kyoui/spain/' }
         ],
         italy: [
-            { name: 'コロッセオ', url: 'colosseum.html' },
-            { name: 'ヴェネツィア', url: 'venice.html' }
+            { name: 'スクロヴェー二礼拝堂', url: 'https://www.ohmi.co.jp/report/index.php?c=topics2_view&pk=1607996670' },
+            { name: 'ピサの斜塔', url: 'https://www.his-j.com/sightseeing/kaigai/europe/italy/pisa/' }
+        ]
+        england: [
+            { name: 'ロンドン塔', url: 'https://www.his-j.com/theme/world-heritage/europe/england/tower/' },
+            { name: 'ストーンヘンジ', url: 'https://www.his-j.com/sightseeing/kaigai/europe/england/stonehenge/' }
+        ]
+        germany: [
+            { name: 'ヴィースの巡礼教会', url: 'https://www.his-j.com/theme/world-heritage/europe/germany/wies/' },
+            { name: 'バンベルク', url: 'https://www.his-j.com/theme/world-heritage/europe/germany/bamberg/' }
         ]
         // 他の国の世界遺産データも追加
     };

@@ -12,7 +12,6 @@ window.addEventListener('load', function () {
     });
 });
 
-
 $(function () {
     $(window).scroll(function () {
         $("nav.floating").stop().animate(
@@ -28,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { name: 'セゴビア', url: 'https://www.nta.co.jp/kaigai/europe/worldheritage/kyoui/spain/' }
         ],
         italy: [
-            { name: 'スクロヴェー二礼拝堂', url: 'https://www.ohmi.co.jp/report/index.php?c=topics2_view&pk=1607996670' },
+            { name: 'スクロヴェーニ礼拝堂', url: 'https://www.ohmi.co.jp/report/index.php?c=topics2_view&pk=1607996670' },
             { name: 'ピサの斜塔', url: 'https://www.his-j.com/sightseeing/kaigai/europe/italy/pisa/' }
         ],
         england: [

@@ -25,6 +25,11 @@ header {
     border: 2px solid #ccc;
 }
 
+/*ヘッターの字体*/
+.site-menu ul li a {
+    font-family: 'serif', serif;
+}
+
 .heritage-menu {
     display: none;
     text-align: center;

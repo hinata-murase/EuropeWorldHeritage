@@ -7,6 +7,12 @@ header {
     margin-top: 20px;
 }
 
+.title h1 {
+    font-family: 'serif',　serif;
+    font-size: 32pt;
+    font-weight: bold;
+}
+
 /*ヘッターの字体*/
 .site-menu ul li a {
     font-family: 'serif', serif;

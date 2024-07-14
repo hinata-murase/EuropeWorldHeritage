@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "serif", serif;
 }
 
 header {
@@ -15,7 +15,7 @@ header {
 }
 
 .flag-item {
-    margin: 10px;
+    margin: 20px;
     cursor: pointer;
 }
 

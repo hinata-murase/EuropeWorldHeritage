@@ -1,7 +1,31 @@
 body {
-    background-color: #000000; /* 背景を黒に設定 */
-    color: #FFFFFF; /* 文字色を白に設定 */
+    font-family: Arial, sans-serif;
+    font-size: 16pt;
+    color: #e9e2e2;
+    line-height: 1;
+    background-color: #000000;
 }
+
+.title {
+    height: 310px;
+    background-image: url(../images/country/body_top.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f5deb3;
+    text-shadow: 1px 1px 10px #4b2c14;
+}
+
+.title h1 {
+    font-family: 'serif', serif;
+    font-size: 32pt;
+    font-weight: bold;
+}
+
 
 .map {
     width: 930px;
@@ -37,6 +61,3 @@ body {
     color: #FFFFFF; /* メニューリンクの文字色を白に設定 */
 }
 
-.footer-logo img {
-    filter: brightness(0) invert(1); /* ロゴの色を反転して白に設定 */
-}

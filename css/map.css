@@ -12,6 +12,17 @@ body {
     font-family: 'serif', serif;
 }
 
+.title h1 {
+    font-family: 'serif', serif;
+    font-size: 32pt;
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
 .title {
     height: 310px;
     background-image: url(../images/country/body_top.png);

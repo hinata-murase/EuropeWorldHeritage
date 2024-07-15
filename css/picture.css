@@ -1,1 +1,117 @@
+body {
+    font-family:'arial', sans-serif;
+    font-size: 16pt;
+    color: #e9e2e2;
+    /*文の間隔*/
+    line-height: 1;
+    /*上の背景色*/
+    background-color: #000000;
+}
 
+.title {
+    height: 310px;
+    background-image: url(../images/concept/body_top.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f5deb3;
+    text-shadow: 1px 1px 10px #4b2c14;
+}
+
+
+
+.title h1 {
+    font-family: 'serif',　serif;
+    font-size: 32pt;
+    font-weight: bold;
+}
+
+/*ヘッターの字体*/
+.site-menu ul li a {
+    font-family: 'serif', serif;
+}
+
+.title p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    width: 930px;
+    max-width: 90%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+}
+
+.feature-text {
+    max-width: 500px;
+    margin-right: 40px;
+}  
+
+.feature img {
+    max-width: 500px;
+    margin-right: 40px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.reverse .feature-text {
+    margin-left: 40px;
+    margin-right: 0;
+}
+
+.feature-text h2 {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.feature-text h2::after {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 20px;
+}
+
+.feature-text p {
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 25px;
+
+    .photo-gallery {
+    　　display: flex;
+   　　 flex-wrap: wrap;
+   　　 gap: 10px; /* 写真間のスペースを調整 */
+　　}
+
+　　.photo-gallery a {
+   　　 flex: 1 1 calc(33.333% - 10px); /* 3列にするために幅を調整 */
+    　　box-sizing: border-box; /* パディングやボーダーを含めたサイズを計算 */
+    　　display: flex;
+   　　 justify-content: center; /* 画像を中央揃え */
+   　　 align-items: center; /* 画像を中央揃え */
+　　}
+
+　　.photo-gallery img {
+  　　  max-width: 100%;
+   　　 height: auto;
+  　　  display: block;
+　　}
+
+}
+
+.footer {
+    margin-top: 100px;
+}

@@ -1,63 +1,76 @@
 body {
-    font-family: "serif", serif;
+    font-family:'arial', sans-serif;
+    font-size: 16pt;
+    color: #e9e2e2;
+    line-height: 1;
+    background-color: #000000;
 }
 
-header {
-    text-align: center;
-    margin-top: 20px;
+.title {
+    height: 310px;
+    background-image: url(../images/members/body_top.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f5deb3;
+    text-shadow: 1px 1px 10px #4b2c14;
 }
 
 .title h1 {
     font-family: 'serif',　serif;
     font-size: 32pt;
     font-weight: bold;
-    display: center;
 }
 
-/*ヘッターの字体*/
 .site-menu ul li a {
     font-family: 'serif', serif;
 }
 
-.flag-container {
+.title p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.countries {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    margin: 20px 0;
+    justify-content: space-around;
+    width: 930px;
+    max-width: 90%;
+    margin: 75px auto;
+    gap: 20px;
 }
 
-.flag-item {
-    margin: 20px;
-    cursor: pointer;
-}
-
-.flag-item img {
-    width: 100px;
-    height: auto;
-    border: 2px solid #ccc;
-}
-
-.heritage-menu {
-    display: none;
+.country-item {
+    flex: 1 1 calc(33.333% - 40px);
+    box-sizing: border-box;
     text-align: center;
-    margin-top: 20px;
 }
 
-.heritage-menu ul {
-    list-style: none;
-    padding: 0;
+.country-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
 }
 
-.heritage-menu ul li {
-    margin: 5px 0;
+.country-item img:hover {
+    transform: scale(1.05);
 }
 
-.heritage-menu ul li a {
-    text-decoration: none;
-    color: #007BFF;
+.country-item h2 {
+    font-size: 18px;
     font-weight: bold;
+    color: #f5deb3;
 }
 
-.heritage-menu ul li a:hover {
-    text-decoration: underline;
+.footer {
+    margin-top: 100px;
 }

@@ -54,7 +54,8 @@ header {
 
 .recommendation img {
     width: 100%;
-    height: auto;
+    height: 200px; /* ここで高さを指定します */
+    object-fit: cover; /* 画像が容器のサイズにフィットするようにします */
     border-radius: 10px;
 }
 

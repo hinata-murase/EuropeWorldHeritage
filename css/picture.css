@@ -96,14 +96,6 @@ body {
    　　 gap: 10px; /* 写真間のスペースを調整 */
 　　}
 
-　　.photo-gallery a {
-   　　 flex: 1 1 calc(33.333% - 10px); /* 3列にするために幅を調整 */
-    　　box-sizing: border-box; /* パディングやボーダーを含めたサイズを計算 */
-    　　display: flex;
-   　　 justify-content: center; /* 画像を中央揃え */
-   　　 align-items: center; /* 画像を中央揃え */
-　　}
-
 　　.photo-gallery img {
   　　  max-width: 100%;
    　　 height: auto;

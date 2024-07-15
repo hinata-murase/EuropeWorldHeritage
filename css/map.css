@@ -7,6 +7,11 @@
     position: relative; /* 追加 */
 }
 
+/*ヘッターの字体*/
+.site-menu ul li a {
+    font-family: 'serif', serif;
+}
+
 .map iframe {
     display: block;
     width: 100%;

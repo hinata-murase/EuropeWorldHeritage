@@ -49,7 +49,7 @@ header {
 }
 
 .flag-item img {
-    width: 150px; /* ここを変更しました */
+    width: 150px; 
     height: auto;
     border: 2px solid #ccc;
 }

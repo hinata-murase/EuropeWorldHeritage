@@ -2,6 +2,36 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
+body {
+    font-family:'arial', sans-serif;
+    font-size: 16pt;
+    color: #e9e2e2;
+    line-height: 1;
+    background-color: #000000;
+}
+
+.title {
+    height: 310px;
+    background-image: url(../images/country/body_top.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f5deb3;
+    text-shadow: 1px 1px 10px #4b2c14;
+}
+
+.title h1 {
+    font-family: 'serif',　serif;
+    font-size: 32pt;
+    font-weight: bold;
+}
+
+
 header {
     text-align: center;
     margin-top: 20px;

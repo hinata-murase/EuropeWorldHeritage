@@ -6,16 +6,18 @@ body {
     background-color: #000000;
 }
 
-}
-/*ヘッターの字体*/
+/* ヘッダーの字体 */
 .site-menu ul li a {
     font-family: 'serif', serif;
+    color: #FFFFFF; /* メニューリンクの文字色を白に設定 */
 }
 
+/* タイトルスタイル */
 .title h1 {
     font-family: 'serif', serif;
     font-size: 32pt;
     font-weight: bold;
+    color: #f5deb3; /* タイトルの文字色 */
 }
 
 header {
@@ -33,23 +35,14 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #f5deb3;
+    color: #f5deb3; /* タイトルの文字色 */
     text-shadow: 1px 1px 10px #4b2c14;
 }
-
-.h1 {
-    font-family: 'serif', serif;
-    font-size: 32pt;
-    font-weight: bold;
-}
-
 
 .map {
     width: 930px;
     max-width: 90%;
-    margin-top: 75px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 75px auto 0; /* 上のマージンを75px、自動で左右のマージン */
     position: relative;
 }
 
@@ -74,7 +67,14 @@ header {
     background-color: #000000; /* ヘッダーとフッターの背景を黒に設定 */
 }
 
+.site-menu {
+    background-color: #000000; /* メニューの背景を黒に設定 */
+}
+
 .site-menu a {
     color: #FFFFFF; /* メニューリンクの文字色を白に設定 */
 }
 
+.title h1 {
+    text-align: center; /* タイトルを中央揃え */
+}

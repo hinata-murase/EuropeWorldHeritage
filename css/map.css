@@ -6,6 +6,12 @@ body {
     background-color: #000000;
 }
 
+}
+/*ヘッターの字体*/
+.site-menu ul li a {
+    font-family: 'serif', serif;
+}
+
 .title {
     height: 310px;
     background-image: url(../images/country/body_top.png);

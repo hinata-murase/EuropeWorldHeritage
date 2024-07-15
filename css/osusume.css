@@ -53,7 +53,7 @@ header {
 }
 
 .recommendation img {
-    width: 100%; /*ここ変更*/
+     /*ここ変更*/
     width: 300px;
     height: 100px; /* ここで高さを指定します */
     object-fit: cover; /* 画像が容器のサイズにフィットするようにします */

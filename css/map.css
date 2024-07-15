@@ -2,18 +2,14 @@ body {
     background-color: #000000; /* 背景を黒に設定 */
     color: #FFFFFF; /* 文字色を白に設定 */
 }
+
 .map {
     width: 930px;
     max-width: 90%;
     margin-top: 75px;
     margin-left: auto;
     margin-right: auto;
-    position: relative; /* 追加 */
-}
-
-/*ヘッターの字体*/
-.site-menu ul li a {
-    font-family: 'serif', serif;
+    position: relative;
 }
 
 .map iframe {
@@ -25,10 +21,22 @@ body {
 
 .clickable-overlay {
     position: absolute;
-    top: 25px; 
+    top: 25px;
     left: 0;
     width: 100%;
-    height: 600px; /* iframeの高さと一致 */
+    height: 600px;
     cursor: pointer;
     background: rgba(255, 255, 255, 0); /* 完全に透明 */
+}
+
+.header, .footer {
+    background-color: #000000; /* ヘッダーとフッターの背景を黒に設定 */
+}
+
+.site-menu a {
+    color: #FFFFFF; /* メニューリンクの文字色を白に設定 */
+}
+
+.footer-logo img {
+    filter: brightness(0) invert(1); /* ロゴの色を反転して白に設定 */
 }

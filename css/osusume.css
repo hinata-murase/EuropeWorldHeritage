@@ -1,1 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16pt;
+    color: #e9e2e2;
+    line-height: 1;
+    background-color: #000000;
+}
 
+.title {
+    height: 310px;
+    background-image: url(../images/country/body_top.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f5deb3;
+    text-shadow: 1px 1px 10px #4b2c14;
+}
+
+.title h1 {
+    font-family: 'serif', serif;
+    font-size: 32pt;
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*ヘッダーの字体*/
+.site-menu ul li a {
+    font-family: 'serif', serif;
+}
+
+.recommendation-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.recommendation {
+    background-color: #333;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 300px;
+}
+
+.recommendation img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.recommendation-info {
+    text-align: center;
+    color: #f5deb3;
+    margin-top: 10px;
+}
+
+.recommendation-info h2 {
+    font-family: 'serif', serif;
+    font-size: 24pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.recommendation-info p {
+    font-size: 14pt;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #f5deb3;
+}
+
+/*フッターの字体*/
+.footer .site-menu ul li a {
+    font-family: 'serif', serif;
+    color: #f5deb3;
+}

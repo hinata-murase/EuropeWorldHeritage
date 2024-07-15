@@ -14,17 +14,27 @@
         <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">    
         <style>
             .map {
-                position: relative;
-                width: 600px; /* 追加 */
-                height: 450px; /* 追加 */
-                margin-bottom: 20px; /* 追加 */
+                width: 930px;
+                max-width: 90%;
+                margin-top: 75px;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative; /* 追加 */
             }
+
+            .map iframe {
+                display: block;
+                width: 100%;
+                height: 600px;
+                margin-top: 25px;
+            }
+
             .clickable-overlay {
                 position: absolute;
-                top: 0;
+                top: 25px; /* 追加 */
                 left: 0;
                 width: 100%;
-                height: 100%;
+                height: 600px; /* iframeの高さと一致 */
                 cursor: pointer;
                 background: rgba(255, 255, 255, 0); /* 完全に透明 */
             }
@@ -74,4 +84,27 @@
             <div class="map">
                 <h2>アクセスマップ</h2>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4251511.118083699!2d-6.448833103323611!3d40.29878988070395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd413ee6a93332f9%3A0x54567221bf13dfb7!2z44K544Oa44Kk44OzIOOCu-OCtOODk-OCog!5e0!3m2!1sja!2sjp!4v1721009716348!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  
+                <div class="clickable-overlay overlay2"></div>
+            </div>
+            <div class="map">
+                <h2>アクセスマップ</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3491658.1661089025!2d8.388626824640934!3d45.1064174472214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477eda5b71ecbd5b%3A0x4b78e6e0dd262c65!2z44K544Kv44Ot44O044Kn44O844OL56S85oud5aCC!5e0!3m2!1sja!2sjp!4v1721010203882!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="clickable-overlay overlay3"></div>
+            </div>
+        </main>
+        <footer class="footer">
+            <nav class="site-menu">
+                <ul>
+                   <li><a href="picture.html">写真から探す</a></li>
+                   <li><a href="country.html">国から探す</a></li>
+                   <li><a href="map.html">地図から探す</a></li>
+                   <li><a href="osusume.html">おすすめ世界遺産</a></li>
+                </ul>
+            </nav>
+            <a class="footer-logo" href="index.html">
+                <img src="images/common/logo_footer.png" alt="ロゴ">
+            </a>
+            <p class="copyright"><small>&copy;名城大学情報工学部(嘘)</small></p>
+        </footer>
+    </body>
+</html>

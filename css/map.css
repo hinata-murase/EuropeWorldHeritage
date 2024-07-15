@@ -6,7 +6,7 @@ body {
     background-color: #000000;
 }
 
-.h1 {
+.title {
     height: 310px;
     background-image: url(../images/country/body_top.png);
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@ body {
     text-shadow: 1px 1px 10px #4b2c14;
 }
 
-.h111 {
+.h1 {
     font-family: 'serif', serif;
     font-size: 32pt;
     font-weight: bold;
